@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikki's Friends</title>
+    <link href="style.css" rel="Stylesheet" type="text/css">
+    
+</head>  
+
+<body>
+
+  <div class="header">
+    <h1>Friends - TV show</h1>
+  </div>
+  
+  <div class="wrapper">
+    <div class="topnav" id="myTopnav">
+      <a href="#home">Home</a>
+      <a href="#news">Cast</a>
+      <a href="#contact" class="active">Characters</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+   
+    <div class="flex-container">
+      <div class="article">
+        <h2>Monica Geller<img src="monica.jpg" alt="Monica"></h2>
+        <p>Monica Geller is the younger sister of Ross and best friend of Rachel. She works as a chef at a variety of restaurants. She is described as the mother hen of the group, and is known for her obsessive-compulsive and competitive nature. Monica is often jokingly teased by the others, especially Ross, for having been overweight as a teenager.</p>
+
+        <h2>Ross Geller<img src="ross.jpg" alt="Ross"></h2>
+        <p>Ross Geller is a paleontologist at a museum of prehistory. Considered by some to be the most intelligent of the six main characters, but at the same time a clumsy, quirky man, Ross is known for being a smart, know-it-all who prides himself on his rationality, despite his clear hopeless romanticism. Ross is Monica's older brother and Chandler's college roommate.</p>
+
+        <h2>Rachel Green<img src="rachel.jpg" alt="Rachel"></h2>
+        <p>Rachel debuts in the pilot episode of Friends as a runaway bride who is distraught after abandoning her fiancé Barry at the altar. She locates her high school best friend Monica, the only person she knows in New York City, who agrees to let Rachel reside with her while she attempts to reorganize her life. Rachel starts to reinvent herself as a waitress at Central Perk.</p>
+
+        <h2>Chandler Bing<img src="chandler.jpg" alt="Chandler"></h2>
+        <p>Chandler Bing is an executive in statistical analysis and data reconfiguration for a large multi-national corporation. Chandler is known for his sarcastic sense of humor. He met Ross and they became best friends in college. Chandler is often depicted as being somewhat of a hapless individual, suffering a lot of bad luck while struggling through life.</p>
+
+        <h2>Joey Tribbiani<img src="joey.jpg" alt="Joey"></h2>
+        <p>Joseph "Joey" Tribbiani is an Italian-American struggling actor who lives with his roommate and best friend, Chandler. Joey is portrayed as promiscuous and dim-witted but good-natured, as well as very loyal, caring, and protective of his friends. He is a food-loving womanizer who has had more luck with dates than any of the other group members.</p>
+
+        <h2>Phoebe Buffay<img src="phoebe.jpg" alt="Phoebe"></h2>
+        <p>Phoebe Buffay is an odd, ditzy albeit sweet-natured masseuse who grew up homeless, sometimes telling her friends outlandish tales of life on the street. She is an aspiring musician who plays the guitar and sings songs with somewhat unusual lyrics at the coffee shop. She was Monica's roommate before Rachel, which is how she was introduced to the group.</p>
+              
+      </div>
+
+      <div class="aside">
+        <h2>Summary</h2>
+        <p>Six young (20-something) people from New York City, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.</p>
+        <h2>Aired</h2>
+        <p>First episode date: 22 September 1994</p>
+        <p>Final episode date: 6 May 2004</p>
+        <h2>Seasons</h2>
+        <p>There were 10 seasons, with a total of 236 episodes.</p>
+          
+      </div>
+    </div>
+ 
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    
+  </div>
+    
+  <div class="footer">
+      <span>This page has been created by <a href="https://github.com/vikkimason" target="_blank">Vikki</a> for her Academy Xi first project, in November 2021.</span>
+      
+  </div>
+
+</body>
+</html>
